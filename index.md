@@ -48,7 +48,7 @@ For your second milestone, explain what you've worked on since your previous mil
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0JvK0g1WN4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My first milestone was assembling the rover and getting it to move. 
-- This consists of assembling the physical body of the car, attatching motors, and wiring to the motor driver and Arduino Uno.
+- This consists of assembling the physical body of the rover, attatching motors, and wiring to the motor driver and Arduino Uno.
 - I found that one battery pack was not enough voltage, so I used two.
 - I then connected the Arduino Uno and uploaded movement code.
 - In the future, I hope to find a neater arrangement for my wires. 
