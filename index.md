@@ -33,13 +33,15 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nz1h3VtZ7I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+My second milestone was assembling the bluetooth controller
+- This consists of wiring an Arduino Micro, accelerometer, and bluetooth module to a breadboard.
+- There is a second bluetooth module on the rover, connected to the Uno. 
+- Bluetooth modules will only succesfully sync if both wires connecting to EN are left floating. 
+- All commands and wiring that I used/did are in my Milestone 2 video.
+- You can keep the controller connected to a port (via the Micro's USB), but I wired it so that it connects to a battery pack instead for convenience.
+- Since I am almost done, I will focus on finding stable places to place all my componenets and also start considering modifications. 
 
 # First Milestone
 
@@ -47,7 +49,7 @@ For your second milestone, explain what you've worked on since your previous mil
 
 My first milestone was assembling the rover and getting it to move. 
 - This consists of assembling the physical body of the rover, attatching motors, and wiring to the motor driver and Arduino Uno.
-- I found that one battery pack was not enough voltage, so I used two.
+- One battery pack was not enough voltage, so I used two.
 - I then connected the Arduino Uno and uploaded movement code.
 - In the future, I hope to find a neater arrangement for my wires. 
 
