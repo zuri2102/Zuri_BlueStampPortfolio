@@ -13,7 +13,7 @@ You should comment out all portions of your portfolio that you have not complete
 
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](PXL_20230705_195808483.jpg)
+
   
 # Final Milestone
 
@@ -50,6 +50,12 @@ My first milestone was assembling the rover and getting it to move.
 - One battery pack was not enough voltage, so I used two.
 - I then connected the Arduino Uno and uploaded movement code.
 - In the future, I hope to find a neater arrangement for my wires. 
+
+![Chassis](PXL_20230705_195808483.jpg)
+Assembled body of rover
+
+
+
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
