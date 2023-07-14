@@ -41,6 +41,12 @@ My second milestone was assembling the bluetooth controller
 - You can keep the controller connected to a port (via the Micro's USB), but I wired it so that it connects to a battery pack instead for convenience.
 - Since I am almost done, I will focus on finding stable places to place all my componenets and also start considering modifications. 
 
+![Accelerometer](accelerometer.jpg)
+Soldering accelerometer
+
+![Controller](controller.jpg)
+Wired controller
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0JvK0g1WN4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -54,7 +60,8 @@ My first milestone was assembling the rover and getting it to move.
 ![Chassis](PXL_20230705_195808483.jpg)
 Assembled body of rover
 
-
+![Motors](motors.jpg)
+Motors added
 
 
 # Schematics 
