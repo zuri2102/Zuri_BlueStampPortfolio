@@ -42,9 +42,11 @@ My second milestone was assembling the bluetooth controller
 - Since I am almost done, I will focus on finding stable places to place all my componenets and also start considering modifications. 
 
 Soldering accelerometer
+
 <img src="solder.png" width="560" height="315" />
 
 Wired controller
+
 <img src="control.png" width="560" height="315" />
 
 # First Milestone
@@ -58,9 +60,11 @@ My first milestone was assembling the rover and getting it to move.
 - In the future, I hope to find a neater arrangement for my wires. 
 
 Assembled body of rover
+
 <img src="motor.png" width="560" height="315" />
 
 Motors added
+
 <img src="body.png" width="560" height="315" />
 
 
