@@ -57,14 +57,15 @@ My first milestone was assembling the rover and getting it to move.
 - I then connected the Arduino Uno and uploaded movement code.
 - In the future, I hope to find a neater arrangement for my wires. 
 
-<img src="motor.png" width="560" height="315" />
+<div align="center">
+  <img src="motor.png" width="560" height="315" />
+</div>
+Assembled full body of rover with motor drive and wiring
 
-Assembled body of rover
-
-
-<img src="body.png" width="560" height="315" />
-
-Motors added
+<div align="center">
+  <img src="body.png" width="560" height="315" />
+</div>
+Motors added to chassis
 
 
 # Schematics 
