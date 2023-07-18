@@ -42,6 +42,7 @@ My second milestone was assembling the bluetooth controller
   Soldering accelerometer
 </div>
 
+
 <div align="center">
   <img src="control.png" width="560" height="315" />
 </div>
@@ -66,6 +67,7 @@ My first milestone was assembling the rover and getting it to move.
 <div align="center">
   Assembled full body of rover with motor drive and wiring
 </div>
+
 
 <div align="center">
   <img src="body.png" width="560" height="315" />
