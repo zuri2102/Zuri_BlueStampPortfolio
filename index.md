@@ -65,7 +65,9 @@ Assembled full body of rover with motor drive and wiring
 <div align="center">
   <img src="body.png" width="560" height="315" />
 </div>
-Motors added to chassis
+<div align="center">
+  Motors added to chassis
+</div>
 
 
 # Schematics 
