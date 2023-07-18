@@ -41,11 +41,11 @@ My second milestone was assembling the bluetooth controller
 - You can keep the controller connected to a port (via the Micro's USB), but I wired it so that it connects to a battery pack instead for convenience.
 - Since I am almost done, I will focus on finding stable places to place all my componenets and also start considering modifications. 
 
-<img src="solder.png" width="560" height="315" />
 Soldering accelerometer
+<img src="solder.png" width="560" height="315" />
 
-<img src="control.png" width="560" height="315" />
 Wired controller
+<img src="control.png" width="560" height="315" />
 
 # First Milestone
 
@@ -57,12 +57,11 @@ My first milestone was assembling the rover and getting it to move.
 - I then connected the Arduino Uno and uploaded movement code.
 - In the future, I hope to find a neater arrangement for my wires. 
 
-
-<img src="motor.png" width="560" height="315" />
 Assembled body of rover
+<img src="motor.png" width="560" height="315" />
 
-<img src="body.png" width="560" height="315" />
 Motors added
+<img src="body.png" width="560" height="315" />
 
 
 # Schematics 
