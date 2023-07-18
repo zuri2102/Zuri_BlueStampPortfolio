@@ -24,8 +24,10 @@ For your final milestone, explain the outcome of your project. Key details to in
 
 
 # Second Milestone
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/nz1h3VtZ7I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/nz1h3VtZ7I8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 My second milestone was assembling the bluetooth controller
 - This consists of wiring an Arduino Micro, accelerometer, and bluetooth module to a breadboard.
@@ -50,8 +52,9 @@ My second milestone was assembling the bluetooth controller
 </div>
 
 # First Milestone
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0JvK0g1WN4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/0JvK0g1WN4c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 My first milestone was assembling the rover and getting it to move. 
 - This consists of assembling the physical body of the rover, attatching motors, and wiring to the motor drive and Arduino Uno.
@@ -76,7 +79,9 @@ My first milestone was assembling the rover and getting it to move.
 </div>
 
 # Schematics 
-<img src="schematics.jpg" width="560" height="315" />
+<div align="center">
+  <img src="schematics.jpg" width="560" height="315" />
+</div>
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
