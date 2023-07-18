@@ -40,8 +40,9 @@ My second milestone was assembling the bluetooth controller
 </div>
 <div align="center">
   Soldering accelerometer
+  --
 </div>
---
+
 <div align="center">
   <img src="control.png" width="560" height="315" />
 </div>
