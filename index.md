@@ -60,7 +60,7 @@ My first milestone was assembling the rover and getting it to move.
 ![Chassis](PXL_20230705_195808483.jpg)
 Assembled body of rover
 
-![Motors](motors.jpg)
+<img src="motors.jpg" width="560" height="315" />
 Motors added
 
 
