@@ -42,10 +42,14 @@ My second milestone was assembling the bluetooth controller
 - Since I am almost done, I will focus on finding stable places to place all my componenets and also start considering modifications. 
 
 <img src="solder.png" width="560" height="315" />
+
 Soldering accelerometer
 
+
 <img src="control.png" width="560" height="315" />
+
 Wired controller
+
 
 # First Milestone
 
@@ -58,10 +62,14 @@ My first milestone was assembling the rover and getting it to move.
 - In the future, I hope to find a neater arrangement for my wires. 
 
 <img src="motor.png" width="560" height="315" />
+
 Assembled body of rover
 
+
 <img src="body.png" width="560" height="315" />
+
 Motors added
+
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
