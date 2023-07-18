@@ -1,11 +1,5 @@
 # Gesture Controlled Rover
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
-
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+This is an Arduino four-wheeled rover that is controlled via an accelerometer - hence, gesture controlled. Bluetooth modules on the controller and the rover communicate with each other to send and recieve commands respectively. Ultimately, by tilting the controller, I can make the rover move forwards, backwards, right, left, freeze, and stop. As a modification, I added an ultrasonic distance sensor to prevent head-on collisions with objects. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -96,8 +90,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Car Chassis Kit | Building the body of the car (including motors) | $18.99 | <a href="https://www.amazon.com/gp/product/B06VTP8XBQ"> Link </a> |
+| Motor Drive Board | Controlling motors | $6.99 | <a href="https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6/ref=asc_df_B014KMHSW6/?tag=hyprod-20&linkCode=df0&hvadid=167139094796&hvpos=&hvnetw=g&hvrand=13469222211329594770&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032008&hvtargid=pla-306436938191&psc=1"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
