@@ -103,6 +103,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | Battery holders | Holding AA batteries | $6.99 | <a href="https://www.amazon.com/Pack-Battery-Holder-Bundle-QTEATAK/dp/B07WY3VMNN/ref=sr_1_3?crid=13EJ8M1PP2AMB&keywords=battery+holder&qid=1689708577&s=electronics&sprefix=battery+holder%2Celectronics%2C151&sr=1-3"> Link </a> |
 | AA Batteries | Powering rover and controller | $16.49 | <a href="https://www.amazon.com/AmazonBasics-Performance-Alkaline-Batteries-Count/dp/B00MNV8E0C/ref=sr_1_4?crid=36P1MDLXEIY8E&keywords=AA+batteries&qid=1689708602&s=electronics&sprefix=aa+batterie%2Celectronics%2C143&sr=1-4"> Link </a> |
 | Soldering Kit | Used to solder accelerometer pins | $19.99 | <a href="https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=sr_1_8?keywords=soldering+kit&qid=1689708646&sr=8-8"> Link </a> |
+| Ultrasonic Distance Sensor | (Modification) Used to sense distance from obstacles | $6.99 | <a href="https://www.amazon.com/WWZMDiB-HC-SR04-Ultrasonic-Distance-Measuring/dp/B0B1MJJLJP/ref=sr_1_4?crid=3QISUM0RVJ7K9&keywords=ultrasonic+distance+sensor&qid=1689708766&sprefix=ultrasonic+distance+sensr%2Caps%2C171&sr=8-4"> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
