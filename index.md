@@ -15,10 +15,9 @@ This is an Arduino four-wheeled rover that is controlled via an accelerometer - 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
+My final milestone was finishing the controller and adding modifications.
+- Adding the accelerometer helps for determining orientation of the controller; this is how you control the rover
+- Code is below
 - What you hope to learn in the future after everything you've learned at BSE
 
 
@@ -81,6 +80,7 @@ My first milestone was assembling the rover and getting it to move.
 # Schematics 
 <div align="center">
   <img src="schematics.jpg" width="560" height="315" />
+  Made by Nolan 
 </div>
 
 # Code
