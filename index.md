@@ -80,7 +80,9 @@ My first milestone was assembling the rover and getting it to move.
 # Schematics 
 <div align="center">
   <img src="schematics.jpg" width="560" height="315" />
-  Made by Nolan 
+</div>
+<div align="center">
+  by Nolan
 </div>
 
 # Code
