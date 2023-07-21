@@ -87,16 +87,186 @@ My first milestone was assembling the rover and getting it to move.
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
+#include <SoftwareSerial.h>
+
+#define tx 2
+#define rx 3
+
+SoftwareSerial configBt(rx, tx);
+
+const int pingPin = 12; // Trigger Pin of Ultrasonic Sensor
+const int echoPin = 11; // Echo Pin of Ultrasonic Sensor
+
+bool closeStatus = false; // for determining whether the rover is too close to an object
+
+//character variable for command
+char c = "";
+
+//change based on motor pins
+int in1 = 5;
+int in2 = 6;
+int in3 = 9;
+int in4 = 10;
+
+void setup()
+{
+  //opens serial monitor and bluetooth serial monitor
+  Serial.begin(38400);
+  configBt.begin(38400);
+  pinMode(tx, OUTPUT);
+  pinMode(rx, INPUT);
+
+  //initializes all motor pins as outputs
+  pinMode(in1, OUTPUT);
+  pinMode(in2, OUTPUT);
+  pinMode(in3, OUTPUT);
+  pinMode(in4, OUTPUT);
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
+  //checks for bluetooth data
+  if (configBt.available()){
+    //if available stores to command character
+    c = (char)configBt.read();
+  }
 
+  if (tooClose() == 0) {
+    //acts based on character
+    run(c);
+  }
+  
+
+  //Serial.println(tooClose());  
+  if (tooClose() == 1) {
+    Serial.println("it is too close");
+    freeze();
+    closeStatus = false;
+    
+    freeze();
+    delay(1000);
+    back();
+    delay(1000);
+    freeze();
+    delay(1000);
+  }
 }
+
+//moves robot forward 
+void forward(){
+  
+    //chages directions of motors
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, HIGH);
+    digitalWrite(in3, HIGH);
+    digitalWrite(in4, LOW);
+
+  }
+
+//moves robot left
+void left(){
+
+    //changes directions of motors
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, HIGH);
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, HIGH);
+
+  }
+
+//moves robot right
+void right(){
+
+    //changes directions of motors
+    digitalWrite(in1, HIGH);
+    digitalWrite(in2, LOW);
+    digitalWrite(in3, HIGH);
+    digitalWrite(in4, LOW);
+
+  }
+
+//moves robot backwards
+void back(){
+
+    //changes directions of motors
+    digitalWrite(in1, HIGH);
+    digitalWrite(in2, LOW);
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, HIGH);
+
+  }
+
+//stops robot
+void freeze(){
+
+    //changes directions of motors
+    digitalWrite(in1, LOW);
+    digitalWrite(in2, LOW);
+    digitalWrite(in3, LOW);
+    digitalWrite(in4, LOW);
+
+  }
+
+//determines if rover is too close
+bool tooClose()
+{
+  long duration, cm;
+  pinMode(pingPin, OUTPUT);
+  digitalWrite(pingPin, LOW);
+  delayMicroseconds(2);
+  digitalWrite(pingPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(pingPin, LOW);
+  pinMode(echoPin, INPUT);
+  duration = pulseIn(echoPin, HIGH);
+  cm = duration / 29 / 2;
+
+  // store the distance values in variable
+  long storedCm = cm;
+
+  //Serial.print(" - Stored Centimeters: ");
+  //Serial.println(storedCm);
+
+  // conditions for being too close
+  if (storedCm <= 20) // Adjust the threshold as per your requirements
+  {
+    closeStatus = true;
+    return true;
+  }
+
+  return false;
+}
+
+void run(char z) {
+  switch(z){
+      
+      //forward case
+      case 'F':
+        forward();
+        break;
+        
+      //left case
+      case 'L':
+        left();
+        break;
+        
+      //right case
+      case 'R':
+        right();
+        break;
+        
+      //back case
+      case 'B':
+        back();
+        break;
+        
+      //default is to stop robot
+      case 'S':
+        freeze();
+        break;
+      }
+}
+
 ```
 
 # Bill of Materials
@@ -118,10 +288,3 @@ void loop() {
 | Soldering Kit | Used to solder accelerometer pins | $19.99 | <a href="https://www.amazon.com/Soldering-Iron-Kit-Temperature-Desoldering/dp/B07S61WT16/ref=sr_1_8?keywords=soldering+kit&qid=1689708646&sr=8-8"> Link </a> |
 | Ultrasonic Distance Sensor | (Modification) Used to sense distance from obstacles | $6.99 | <a href="https://www.amazon.com/WWZMDiB-HC-SR04-Ultrasonic-Distance-Measuring/dp/B0B1MJJLJP/ref=sr_1_4?crid=3QISUM0RVJ7K9&keywords=ultrasonic+distance+sensor&qid=1689708766&sprefix=ultrasonic+distance+sensr%2Caps%2C171&sr=8-4"> Link </a> |
 
-# Other Resources/Examples
-One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
-
-To watch the BSE tutorial on how to create a portfolio, click here.
