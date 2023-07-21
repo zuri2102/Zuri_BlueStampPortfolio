@@ -5,7 +5,9 @@ This is an Arduino four-wheeled rover that is controlled via an accelerometer - 
 |:--:|:--:|:--:|:--:|
 | Zuri Y. | Stanford Online High School | Aerospace Engineering | Incoming Junior
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
+<div align="center">
+  <img src="WIN_20230714_13_23_28_Pro.jpg" width="560" height="315" />
+</div>
 
 
   
